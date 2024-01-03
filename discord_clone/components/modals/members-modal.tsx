@@ -25,7 +25,16 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { useModal } from "@/hooks/use-modal-store";
 
 import { ServerWithMembersWithProfiles } from "@/types";
-import { Check, Gavel, Loader2, MoreVertical, Shield, ShieldAlert, ShieldCheck, ShieldQuestion } from "lucide-react";
+import {
+    Check,
+    Gavel,
+    Loader2,
+    MoreVertical,
+    Shield,
+    ShieldAlert,
+    ShieldCheck,
+    ShieldQuestion
+} from "lucide-react";
 import { useState } from "react";
 import { MemberRole } from "@prisma/client";
 import axios from "axios";
