@@ -22,10 +22,6 @@ export const useSocket = () => {
     return useContext(SocketContext);
 };
 
-type SocketProviderProps = {
-    children: React.ReactNode;
-};
-
 export const SocketProvider = ({
     children
 }: {
@@ -56,10 +52,10 @@ export const SocketProvider = ({
 
     }, []);
 
-    return () => {
+    return (
         <SocketContext.Provider value={{ socket, isConnected }}>
             {children}
         </SocketContext.Provider>
-    }
+    )
 }
 
