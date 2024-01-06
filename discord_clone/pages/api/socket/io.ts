@@ -5,7 +5,7 @@ import { Server as ServerIO } from "socket.io";
 import { NextApiResponseServerIo } from "@/types";
 
 export const config = {
-    eapi: {
+    api: {
         bodyParser: false,
     },
 };
@@ -23,3 +23,5 @@ const ioHandler = (req: NextApiRequest, res: NextApiResponseServerIo) => {
 
     res.end();
 }
+
+export default ioHandler;
