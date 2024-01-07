@@ -47,7 +47,7 @@ export const MessageFileModal = () => {
 
     const handleClose = () => {
         form.reset();
-        onClose;
+        onClose();
     }
 
     const isLoading = form.formState.isSubmitting;
