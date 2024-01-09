@@ -4,4 +4,7 @@ Discord is a way to collaborate and have fun with people through video, voice, a
 
 # Getting Started:
 
-After logging in either through GitHub or Google, you are prompted to create a server. Here, you can upload an image for your server and make a name for it.
+After logging in either through GitHub or Google, you are prompted to create a server. Here, you can upload an image for your server and make a name for it. After creating
+
+#Invitations
+
