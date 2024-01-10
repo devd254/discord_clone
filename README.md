@@ -52,5 +52,11 @@ This removes the server and all those connected.
 # Direct Messages
 Below the channels in a server, you can see the members. Clicking on a member will take you to a direct message, where you can video call and text chat
 
+![image](https://github.com/devd254/discord_clone/assets/118070928/0be5e05c-fc94-44e4-b8ae-4178a374c094)
+![image](https://github.com/devd254/discord_clone/assets/118070928/918dcc3d-fa26-4d9a-9202-3b8bc374ff00)
+
 # Chat Messages
 Messages have capabilities for emojis and file attachments, either image or PDF. Messages can be edited or deleted by the owner of the message, moderators, and admins
+
+![image](https://github.com/devd254/discord_clone/assets/118070928/5a3c268f-9fc6-4b98-b391-59c223c68e1e)
+
